@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
-let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
+let mytoken= ['hzy'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
@@ -29,6 +29,7 @@ let total = 99;//PB
 let timestamp = 4102329600000;//2099-12-31
 let WarpKeys = [//本地WARP密钥池
 	//'iNw48fdfcf4wrc9i7A21gyFG09a3E3NPydvb2ysTQGY=',
+	'w21Ev74j-J7ti4e13-7t0zDT53'
 ];
 let WarpKeyURL = 'https://raw.githubusercontent.com/cmliu/WARP2sub/main/WarpKey';//在线WARP密钥池URL
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
